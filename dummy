@@ -1,0 +1,96 @@
+<div class="wat">
+
+            <div class="tpr">
+                <div class="siee">
+                <a class="undeli" href="watchlist.html">My Favourite List </a>
+            </div>
+                <div class="sie">
+                <button class="previ1"> &lt</button>
+                <button class="nexti1"> &gt</button>
+            </div>
+            </div>
+            
+            <div class="corss">
+            <div class="cors1">
+
+            <div class="pr2">
+                <img class="imae" src="Asset/mha.jpg" alt="MHA">
+                <h1 class="hed">My Hero Academia</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/AOT poster.jpeg" alt="MHA">
+                <h1 class="hed">Attack on Titan</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/black clover.jpeg" alt="MHA">
+                <h1 class="hed">Black clover</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/demonslayer.jpeg" alt="MHA">
+                <h1 class="hed">Demons slayer</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/haikyu.jpeg" alt="MHA">
+                <h1 class="hed">Haikyu</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/Manga - Hajime no Ippo.jpeg" alt="MHA">
+                <h1 class="hed">Hajime no ippo</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/one piece.jpeg" alt="MHA">
+                <h1 class="hed">One piece</h1>
+            </div>
+            <div class="pr2">
+                <img class="imae" src="Asset/opm.jpeg" alt="MHA">
+                <h1 class="hed">One punch man</h1>
+            </div>
+
+        </div>
+    </div>
+          
+
+        </div>
+
+
+
+
+        .pr2
+{
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    display: inline-block;
+    margin: 20px;
+    background-color: black;
+    font-size:8.5px;
+}
+.previ1
+{
+    border: none;
+    border-radius: 100px;
+    background-color:rgb(63, 56, 56) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:7px 10px;
+    margin-right: 10px;
+}
+.nexti1
+{
+    border: none;
+    border-radius: 100px;
+    background-color:rgb(63, 56, 56) ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:7px 10px;
+}
+.cors1
+{
+  display:inline-flex ;
+  column-gap: 8px;
+  transition: transform 0.5s ease;
+}
